@@ -1,0 +1,58 @@
+.secondsection {
+  margin-left: 0px;
+}
+
+.pa {
+  text-align: center;
+}
+.par {
+  margin-left: 20px;
+  font-size: 17px;
+  text-align: center;
+}
+.instruments {
+  width: 90%;
+  height: 60%;
+  margin: auto 4%;
+}
+.pr {
+  margin-left: 40px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 767px) {
+  .secondsection {
+    margin-left: 0px;
+  }
+  .pa {
+    text-align: center;
+  }
+  .par {
+    margin-left: 20px;
+    font-size: 17px;
+    text-align: center;
+  }
+  .instruments {
+    margin: 0 100px;
+    height: 160px;
+    width: 70%;
+  }
+  .pr {
+    margin-left: 40px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .instruments {
+    margin: 0 62px;
+    height: 160px;
+  }
+  .par {
+    margin: 0 11px;
+    font-size: 13px;
+  }
+  .pr {
+    margin: 0 4%;
+  }
+}

@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: red;
+  padding: 20px;
+}
+
+.footer_content {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.footer_content a {
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer_content {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+  }
+}
